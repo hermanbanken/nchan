@@ -840,7 +840,7 @@ static void nchan_publisher_post_request(ngx_http_request_t *r, ngx_str_t *conte
     return;
   }
   
-  msg->id.time = 0;
+  msg->id.time = 1042;
   msg->id.tag.fixed[0] = 0;
   msg->id.tagactive = 0;
   msg->id.tagcount = 1;
